@@ -1,0 +1,21 @@
+# Site settings
+title: Trifecta Road
+header-img: img/home-bg.png
+email: ctab33@me.com
+copyright_name: ctab33
+description: > # this means to ignore newlines until "baseurl:"
+  At the Intersection of Code and Media
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  ctab33
+learn_profile: ctab33
+email_username: ctab33@me.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
